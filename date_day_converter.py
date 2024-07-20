@@ -11,7 +11,7 @@ def main():
     if st.button("Convert"):
         # Convert date to day of the week
         day_of_week = calendar.day_name[date_input.weekday()]
-        st.subheader(f"The day for the selected date {date_input} is: **{day_of_week}**")
+        st.subheader(f"The day for the selected date {date_input} is  :  **{day_of_week}**")
 
 if __name__ == "__main__":
     main()
